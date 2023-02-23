@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Your message :</legend>
+        <table>
+            <tr>
+                <td><label for="emailTo"></label></td>
+                <td><input type="text" name="txtTo" readonly="readonly" id="emailtO" size="20" value="Example Cafe"></td>
+            </tr>
+
+            <tr>
+                <td><label for="emailFrom">Your email</label></td>
+                <td><input type="text" name="txtFrom" id="emailFrom" size="20" tabindex="1" maxlength="250"></td>
+            </tr>
+            <tr>
+                <td><label for="emailBody">message</label>></td>
+                <td><textarea name="txtBody" id="emailBody" cols="50" rows="10" tabindex="2"></textarea></td>
+            </tr>
+        </table>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>How you found us:</legend> 
+    <table>
+        <tr>
+            <p>How đi you hear of us 
+                <select><option>google &emsp; &emsp;</option></select><br>
+                Newletter &emsp; &emsp; 
+                <input type="checkbox"> Ensure this box is checkbox if would like to receive email updates
+            </p>
+        </tr>
+    </table>
+    </fieldset>
+    <input type="submit" value="Send Message">
+    <fieldset>
+        <legend>Contact Information</legend>
+        <p>First name : <input type="Firstname" name="txtFirstname" value="" size="20" maxlength="20"><br><br>
+            Lastname: <input type="Lastname" name="txtLastname" value="" size="20" maxlength="20"><br><br>
+            E-mail: <input type="email" name="txtemail" value="" size="20" maxlength="20">
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>Competition Question</legend>
+        <P> How tall is the Eiffel Tower in Paris, France?<br>
+            <input type="radio">584 ft <br>
+            <input type="radio">784 ft <br>
+            <input type="radio">984 ft <br>
+            <input type="radio">1184 ft <br>
+        </P>
+    </fieldset>
+    <fieldset>
+        <legend>Tiebreaker Question</legend>
+        <P>In 25 words or less,say why you would like to win $10,000:
+            <td><textarea name="txt"  cols="50" rows="10" tabindex="2"></textarea></td>
+
+        </P>
+    </fieldset>
+    <fieldset>
+        <legend>Enter Competition</legend>
+        <input type="submit" value="Enter Competition">
+    </fieldset>
+</body>
+</html>
